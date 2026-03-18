@@ -1,0 +1,4 @@
+:root { --primary: #2563eb; --bg: #f8fafc; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui; background: var(--bg); padding: 2rem; }
+main { max-width: 720px; margin: 0 auto; }

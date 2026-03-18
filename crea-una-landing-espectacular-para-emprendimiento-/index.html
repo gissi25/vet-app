@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Artesanal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>tailwind.config = { theme: { extend: { fontFamily: { serif: ['Cormorant Garamond'], sans: ['DM Sans'] } } } }</script>
+</head>
+<body class="font-sans text-amber-950 antialiased">
+  <header class="relative min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1920')">
+    <div class="absolute inset-0 bg-amber-950/60"></div>
+    <div class="relative z-10 text-center px-6">
+      <h1 class="font-serif text-5xl md:text-7xl font-bold text-amber-50 mb-4">Cafetería Artesanal</h1>
+      <p class="text-xl text-amber-100/90 max-w-xl mx-auto">El mejor café, tostado a mano. Especialidades del día y ambiente acogedor.</p>
+    </div>
+  </header>
+  <section class="py-20 px-6 bg-amber-50">
+    <h2 class="font-serif text-3xl font-bold text-center text-amber-950 mb-12">Especialidades del Día</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <article class="bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400" alt="Café" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-serif text-xl font-semibold text-amber-950">Flat White</h3>
+          <p class="text-amber-800/80 mt-2">Doble shot de espresso con leche cremosa.</p>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400" alt="Café" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-serif text-xl font-semibold text-amber-950">Cortado</h3>
+          <p class="text-amber-800/80 mt-2">Espresso equilibrado con un toque de leche.</p>
+        </div>
+      </article>
+      <article class="bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400" alt="Café" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="font-serif text-xl font-semibold text-amber-950">Cappuccino</h3>
+          <p class="text-amber-800/80 mt-2">Espresso con espuma de leche cremosa.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="bg-amber-950 text-amber-100 py-12 px-6 text-center">
+    <p class="font-serif text-xl">Cafetería Artesanal</p>
+    <p class="mt-2 text-amber-200/80">Calle Principal 123 · Abierto 7am - 8pm</p>
+  </footer>
+</body>
+</html>
